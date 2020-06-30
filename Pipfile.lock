@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "48b10e4ded5f8fc811dc66d21139314166678df4c968ce30bda02083e418163a"
+            "sha256": "a6944c51096740c798cc1a66a6a1d814e44bff557e60841d4050c60e7c0b0ae2"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -23,10 +23,6 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==3.2.10"
-        },
-        "bookstore": {
-            "editable": true,
-            "path": "."
         },
         "django": {
             "hashes": [
@@ -52,5 +48,10 @@
             "version": "==0.3.1"
         }
     },
-    "develop": {}
+    "develop": {
+        "bookstore": {
+            "editable": true,
+            "path": "."
+        }
+    }
 }
