@@ -10,6 +10,7 @@ flake8 = "*"
 [packages]
 django = "*"
 psycopg2 = "*"
+djangorestframework = "*"
 
 [requires]
 python_version = "3.8"
