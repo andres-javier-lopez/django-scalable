@@ -1,3 +1,3 @@
-import pkg_resources
+from importlib import metadata
 
-__version__ = pkg_resources.require('bookstore')[0].version
+__version__ = metadata.version('bookstore')
