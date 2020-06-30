@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 bookstore = {editable = true, path = "."}
+flake8 = "*"
 
 [packages]
 django = "*"
